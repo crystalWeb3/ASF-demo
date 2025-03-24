@@ -14,7 +14,6 @@ const banner = [ '/SafeCallmed.png', '/WhiteEarPhone.png']
 const Index = () => {
     return (
         <div className="relative w-full  border-b-[2px] border-[#e4e4e7]">
-            <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
             <Swiper
                 // spaceBetween={30}
                 // effect={'fade'}
@@ -33,6 +32,9 @@ const Index = () => {
                 // tag="ul"
             >
                 <SwiperSlide >
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
                     <div className="header-gradient1 min-h-screen bg-no-repeat bg-bottom bg-cover">
                         <div className="w-full pt-32 z-[20]">
                             <div className="grid grid-cols-2 max-w-7xl mx-auto">
@@ -49,6 +51,9 @@ const Index = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide >
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
+                    <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
                     <div className="header-gradient2 min-h-screen bg-no-repeat bg-bottom bg-cover">
                         <div className="w-full pt-32 z-[20]">
                             <div className="grid grid-cols-2 max-w-7xl mx-auto">
