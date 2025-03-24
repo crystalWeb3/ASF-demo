@@ -25,9 +25,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-gradient {
+.header-gradient1 {
   inset: 0;
   background: radial-gradient(circle at 75% 50%,#f8f5ce 10%, 
+  #e4cfa2 30%, 
+  #b08b5b 55%, 
+  #7d654b 85% );
+}
+
+.header-gradient2 {
+  inset: 0;
+  background: radial-gradient(circle at 30% 50%,#f8f5ce 10%, 
   #e4cfa2 30%, 
   #b08b5b 55%, 
   #7d654b 85% );
