@@ -16,7 +16,7 @@ const Index = () => {
         <div className="relative w-full  border-b-[2px] border-[#e4e4e7]">
             <div className="absolute inset-0 bg-[url('/header-bg.png')] z-[10]"></div>
             <Swiper
-                spaceBetween={30}
+                // spaceBetween={30}
                 // effect={'fade'}
                 // navigation={true}
                 // pagination={{
